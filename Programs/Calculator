@@ -1,0 +1,45 @@
+class Calculator
+{
+    public int add(int n1, int n2)
+    {
+        int r = n1 + n2;
+        return r;
+    }
+    public int sub(int n1,int n2)
+    {
+        int r = n1 - n2;
+        return r;
+    }
+    public int mul(int n1, int n2)
+    {
+        int r = n1 * n2;
+        return r;
+    }
+    public float div(float n1, float n2)
+    {
+        float r = n1 / n2;
+        return r;
+    }
+    public float mod(float n1, float n2)
+    {
+        float r = n1 % n2;
+        return r;
+    }
+
+}
+
+public class Example
+{
+    public static void main(String[] args)
+    {
+        int num1 = 14;
+        int num2 = 5;
+        Calculator cal = new Calculator();
+        int res = cal.add(num1,num2);
+        System.out.println(" Sum result : " + res);
+        System.out.println( "Subtraction result : " + cal.sub(num1,num2));
+        System.out.println( "Multiplication result : " + cal.mul(num1,num2));
+        System.out.println( "Divison result : " + cal.div(num1,num2));
+        System.out.println( "Modulo Divison result : " + cal.mod(num1,num2));
+    }
+}
