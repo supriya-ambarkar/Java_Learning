@@ -1,0 +1,7 @@
+# Default Constructor
+
+It is a special method that has the same name as the class name.
+When we want to assign the value while creating an object itself (as a default value) we use this concept called constructors.
+
+
+We especially do not need to call the constructor, when we create an object the constructor is automatically called.
