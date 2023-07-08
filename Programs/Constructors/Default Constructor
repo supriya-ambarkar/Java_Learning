@@ -5,3 +5,5 @@ When we want to assign the value while creating an object itself (as a default v
 
 
 We especially do not need to call the constructor, when we create an object the constructor is automatically called.
+
+
